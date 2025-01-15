@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-cursor {
+    display: inline-block;
+    width: 2px;
+    animation: cursor .6s linear infinite alternate;
+    margin-left: 0.1em;
+  }
+}
