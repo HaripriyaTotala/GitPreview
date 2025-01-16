@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Layout from './components/layout/layout';
+import Layout from './components/Layout/Layout';
 import Logo from './components/ui/Logo';
 import UrlForm from './components/repository/UrlForm';
 import RepoInfo from './components/repository/RepoInfo';
